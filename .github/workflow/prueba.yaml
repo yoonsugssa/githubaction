@@ -1,0 +1,7 @@
+on: [push]
+jobs:
+  hola:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hola, Alessandra
+        run: echo "Hola, Alessandra. Eres muy cute."
